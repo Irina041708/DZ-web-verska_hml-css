@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+/* -------------------------header---------------------- */
+
+.header-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 500px;
+    margin-bottom: 160px;
+}
+
+.header-flex-left {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 375px;
+    gap: 14px;
+}
+
+.header-flex-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Равномерно распределяет все элементы по ширине flex-блока.*/
+    margin-top: 51px;
+    margin-right: 375px;
+    width: 533px;
+}
+
+.menu-link {
+    font-family: 'Gilroy-SemiBold';
+    /* font-size: 14px;
+    line-height: 16px; */
+    color: #0f0f0f; 
+    
+}
+
+.menu-link1 {
+    color: #F25822;
+}
+
+/* ----------------------конец header--------------------- */
+
+/* ----------------------setion--------------------------- */
+.section-box-flex {
+    display: flex;
+    flex-direction: row;
+    margin-left: 373px;
+    gap: 40.94px;
+    padding-bottom: 259.45px;
+}
+
+.section-box-flex-left {
+    width: 522px;
+}
+
+.section-box-flex-right {
+    width: 544.81;
+    height: 374.84px;
+}
+
+.title {
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 17px;
+}
+
+.desk {
+    width: 466px;
+    height: 48px;
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+    margin-bottom: 37px;
+}
+
+.promo-link1 {
+    padding: 15px 36px 16px 35px;
+    width: 140px;
+    height: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px; 
+}
+
+.promo-link2 {
+    width: 90px;
+    height: 19px;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+    margin-left: 72px;
+}
+/* ----------------------конец setion--------------------------- */
+
+/* ------------------------footer------------------------- */
+.footer-logo-flex {
+    display: flex;
+    gap: 48px;
+    padding-left: 345px;
+    padding-bottom: 96px;
+}
+
+
+
+
+
+
+
